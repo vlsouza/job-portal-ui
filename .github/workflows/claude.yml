@@ -23,7 +23,7 @@ jobs:
       pull-requests: write
       issues: write
       id-token: write
-      actions: read # Required for Claude to read CI results on PRs
+      actions: write # Required for Claude to read CI results on PRs and write the action's bun cache
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
