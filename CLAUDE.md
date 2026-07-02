@@ -43,3 +43,5 @@ Three roles with route protection via `ProtectedRoute` component:
 ### ESLint
 
 Flat config (`eslint.config.js`). The `no-unused-vars` rule ignores variables starting with uppercase or underscore (`varsIgnorePattern: '^[A-Z_]'`).
+
+## Thanks!
